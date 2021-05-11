@@ -1,0 +1,208 @@
+/**HEADER**/
+
+.header{
+    background-image: url(images/background.jpg);
+    width: 100%;
+    height: 100px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.header h1{
+    color: white;
+}
+.header h3{
+    color: white;
+    margin-top: -20px;
+    font-style: italic;
+}
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+    font-size: large;
+}
+
+/**NAVIGATION**/
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/**BODY**/
+
+body{
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.body-home{
+    /**background-image: url(images/main-pic.jpg);**/
+    background-color: rgb(10, 7, 7);
+/** background-position: center; **/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body-meals{
+    background-color: black;
+/** background-position: center; **/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/**HOME PAGE**/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
+}
+#home{
+    padding-top: 120px;
+}
+
+table{
+    margin: auto;
+}
+
+/**MEALS**/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list{
+    border: 5px solid white;
+    margin: 30px;
+}
+.meals-list h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+.meals-list i{
+    float: right;
+    color: white;
+    padding-right: 20px;
+}
+.meals-list p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+.meals-list img{
+    width: 70px;
+    height: 60px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+/**MEALS INFO**/
+
+.meals-info h2{
+    color: rgb(10, 9, 9);
+    font-size: 30px;
+}
+.meals-info p{
+    color: rgb(14, 13, 13);
+}
+.meals-info img{
+    width: 60%;
+    margin: auto;
+    float: right;
+    height: 500px;
+    
+    
+}
+.meals-info{
+    background-color : rgba(255, 255, 255, .8) ;
+    width   : 90%;
+    display : block;
+    margin  : auto;
+    margin-top : 12px;
+    padding    : 10px;
+}
+textarea{
+    width: 100%;
+    height :75px;
+    margin : 12px 0;
+    border : 1px solid black;
+}
+
+.button{
+    display : block;
+    background-color: rgb(16, 19, 16);
+    text-decoration : none;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+}
+
+
+h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/**MESSAGE**/
+
+.message{
+    background-color : rgba(255, 255, 255, .8) ;
+    width   : 90%;
+    display : block;
+    margin  : auto;
+    margin-top : 120px;
+    padding    : 10px;
+}
+
+.message h2{
+    color: black;
+}
+
+
+/***RESPONSIVE***/
+@media only screen and (max-width: 600px){
+   .meals-info{
+       width: 80%;
+   }
+   .meals-info img{
+       width: 100%;
+       height: 300px;
+       float: none;
+   }
+   .meals-list{
+       width: 84%;
+   }
+}
+
+@media only screen and (min-width: 1000px){
+    .meals-info{
+        width: 80%;
+    }
+   
+   
+ }
